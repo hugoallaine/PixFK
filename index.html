@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- indique au navigateur que c'est une page en HTML5 -->
+<html>	<!-- début du code html -->
+
+    <head>	<!-- entête (contient les propriétés de la page) -->
+
+        <meta charset="utf-8" />	<!-- codé en utf-8 (le plus fréquent)-->
+        <title>PixFK - Accueil</title>	<!-- Titre de la page (dans l'onglet et sur le web) -->
+        <link rel="stylesheet" href="style\accueil.css" />
+
+    </head>
+
+
+    <body>	<!-- corps (contenu) de la page -->
+    <header>
+        <a class="head" href="index.html" title="PixelAFK"><img src="images\PixFK.png" alt="PixFK"/></a>
+		<a class="head" style="color:red;" href="fr\page1.html">Magasin</a>
+		<a class="head" style="color:red;" href="fr\page2.html">Qui sommes-nous ?</a>
+		<figure  class="head">
+			<figcaption>Musique RE-LA-XANTE</figcaption>
+			<audio	controls src="song\la_dictee.mp3">
+            Your browser does not support the <code>audio</code> element.
+			</audio>
+		</figure>
+    </header>
+	<section>
+		<article id="article1">
+			<p>Bienvenue sur PixFK, le magasin de jeu dématérialisé le plus connu de la toile.</p>
+			<p>Comme Steam, Discord ou encore le fameux Epic Games store, vous pouvez acheter vos jeux virtuellement à vie.</p>
+		</article>
+		<article id="promo">
+			<h3>Les promos du jour</h3>
+			<div id="groupe_promo">
+				<div class="shadow_box">
+					<img src="images\lol.jpg" alt="League of Legends" title="https://www.flickr.com/photos/downloadsourcefr/17534497554"/>
+					<p>League of Legends | <del>49,99€</del> 0€</p>
+					<a href="game\league_of_legends.html" style="color:grey;">Acheter</a>
+				</div>
+				<div class="shadow_box">
+					<img src="images\csgo.jpg" alt="Counter Strike: GO" title="https://www.deviantart.com/antonio11794/art/Ninjas-in-pyjamas-CS-GO-wallpaper-582281863"/>
+					<p>Counter Strike: Global Offensive | <del>14,99€</del> 9,99€</p>
+					<a href="game\counter_strike.html" style="color:grey;">Acheter</a>
+				</div>
+				<div class="shadow_box">
+					<img src="images\apex.jpg" alt="Apex Legends" title="J'ai racheté les droits"/>
+					<p>Apex Legends | <del>4,99€</del> 0€</p>
+					<a href="game\apex_legends.html" style="color:grey;">Acheter</a>
+				</div>
+			</div>
+		</article>
+	</section>
+    <footer>
+        <a class="bot" style="color:red;" href="fr\droit_usage.html">Droit d'utilisation</a>
+		<a class="bot" style="color:blue;">&copy; Hugo Allain&eacute; / Jonathan Vigin, 2019</a> <!-- EH EH -->
+        <a class="bot" style="color:red;" href="fr\contact.html">Contact</a>
+    </footer>
+    </body>
+
+</html>

@@ -1,0 +1,70 @@
+header
+{
+position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+height: 100px;
+background-color: limegreen;
+font-family: Nasalization;
+display: flex;
+justify-content: space-around;
+}
+header img
+{
+position: fixed;
+left: 0px;
+top: 0px;
+}
+header a
+{
+margin: auto;
+}
+
+footer
+{
+position: fixed;
+left: 0px;
+right: 0px;
+bottom: 0px;
+height: 100px;
+margin: 0px;
+background-color: limegreen;
+font-family: Nasalization;
+}
+footer h4
+{
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+#lien1
+{
+position: fixed;
+left: 300px;
+bottom: 40px;
+}
+#lien2
+{
+position: fixed;
+right: 300px;
+bottom: 40px;
+}
+div
+{
+height:500px;
+width:300px;
+
+}
+body
+{
+background-color:gray;
+
+}
+section
+{
+display:flex;
+justify-content:space-around;
+flex-direction:column;
+}

@@ -1,0 +1,73 @@
+body
+{
+margin: auto;
+padding: 0;
+height: 100%;
+}
+header
+{
+height: 100px;
+background-color: limegreen;
+font-family: Nasalization;
+display: flex;
+justify-content: space-around;
+}
+header img
+{
+float: left;
+}
+.head
+{
+margin: auto;
+}
+section
+{
+padding: 20px;
+background-color: orange;
+}
+article
+{
+background-color: orange;
+}
+article h3
+{
+text-align: center;
+color: black;
+}
+article p
+{
+font-size: 20px;
+text-align: center;
+font-family: Arial;
+}
+footer
+{
+text-align: center;
+height: 100px;
+background-color: limegreen;
+font-family: Nasalization;
+display: flex;
+justify-content: space-around;
+}
+.bot
+{
+margin: auto;
+}
+#groupe_promo
+{
+display: flex;
+justify-content: space-around;
+}
+.shadow_box
+{
+height: 400px;
+width: 500px;
+text-align: center;
+box-shadow: 0 0 5px #000;
+background-color: salmon;
+font-size: 30px;
+}
+.shadow_box img
+{
+width: 100%;
+}
