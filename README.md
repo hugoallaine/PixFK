@@ -1,2 +1,3 @@
 # PixFK
-PixFK | ICN's project
+   
+PixFK | PixelAfk project realized in High School (2018)
